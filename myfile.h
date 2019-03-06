@@ -1,19 +1,21 @@
-
+//Modifying(changing variables)
 #include<stdio.h>
 class student
 {
-	 int roll;
-	 char grade;
+	 int r;
+	 char g;
 	public:
 	 void input()
 	 {
 		  cout<<"\nEnter details";
-		  cin>>roll>>grade;
+		  cin>>r>>g;
 	}
 
 	 void output()
 	 {
-		  cout<<roll<grade;
+		  cout<<r<g;
 	}
 
 };
+
+

@@ -1,9 +1,9 @@
-//modifying(subtracting numbers)
+//modifying(subtracting numbers)+modifying(variables now)
 #include<stdio.h>
 int main()
 {
-	 int x=10,y=5,z;
-	 z=x-y;
-	 cout<<z;
+	 int m=10,n=5,g;
+	 g=m-n;
+	 cout<<g;
 	 return 0;
 }
